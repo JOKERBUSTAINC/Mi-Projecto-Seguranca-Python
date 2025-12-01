@@ -33,7 +33,7 @@ Vimos como um script pode criptografar e descriptografar arquivos e gerar uma me
 <img width="804" height="467" alt="image" src="https://github.com/user-attachments/assets/eadf7edd-efe6-499c-b68b-f071bd1ace62" />
 
 
----
+--------
 
 Keylogger Simulado
 ### Objetivo
@@ -41,17 +41,24 @@ Capturar teclas digitadas e armazená-las em um arquivo `.txt`, além de impleme
 
 ### Implementação
 - Uso da biblioteca `pynput` para captura de teclas.
-- Armazenamento em arquivo `dados_capturados.txt`.
+- Armazenamento em arquivo `log.txt`.
 - Envio automático via SMTP (`smtplib`).
 - Execução em máquina virtual Kali Linux, apenas para fins educacionais.
 
 ### Evidências
+
 - Arquivo com dados capturados.
-- Capturas de tela disponíveis na pasta `/images`.
+
+<img width="874" height="428" alt="image" src="https://github.com/user-attachments/assets/7b0997eb-7f27-43e9-82f3-b7e40adc1143" />
+
+<img width="1246" height="418" alt="image" src="https://github.com/user-attachments/assets/5e3640cc-73fa-457e-9606-f1328367955a" />
+
 
 ---
 
+
 ## Reflexão sobre Defesa
+
 Durante o laboratório, foram estudadas medidas de defesa contra malwares:
 
 - **Antivírus e Firewall**: proteção contra execução e comunicação não autorizada.  
@@ -66,16 +73,14 @@ Essas práticas são fundamentais para mitigar riscos e proteger sistemas reais.
 ## Conclusões
 - Foi possível compreender, na prática, como funcionam Ransomware e Keylogger.  
 - Os exercícios mostraram como malwares exploram vulnerabilidades técnicas e humanas.  
-- A experiência reforça a importância de **testes em laboratório** para entender ameaças e fortalecer defesas.  
+- A experiência reforça a importância de testes em laboratório para entender ameaças e fortalecer defesas.  
 
 ---
 
-## Como Executar
-Clone o repositório e execute os scripts em ambiente controlado:
+⚠️ Aviso Importante
+Este repositório e todo o material aqui disponibilizado têm exclusivamente fins educacionais e de pesquisa em ambiente controlado.
+Os exemplos de código e simulações de malware (Ransomware e Keylogger) foram desenvolvidos para estudo em laboratório de segurança informática, não devendo ser utilizados em ambientes públicos ou privados sem autorização.
 
-```bash
-git clone https://github.com/seuusuario/Mi-Projeto-Seguranca.git
-cd Mi-Projeto-Seguranca
-
-python3 ransomware_simulado.py
-python3 keylogger_simulado.py
+Declaração de responsabilidade:
+O autor não se responsabiliza por qualquer dano, perda de dados ou uso indevido decorrente da execução dos scripts fora de um ambiente seguro e controlado.
+A utilização deste material em sistemas reais, sem consentimento, pode ser considerada atividade ilegal.
